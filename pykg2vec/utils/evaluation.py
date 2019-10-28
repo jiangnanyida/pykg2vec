@@ -393,7 +393,8 @@ class Evaluation(EvaluationMeta):
                    progressbar.Percentage(), " ", progressbar.AdaptiveETA()]
 
         self.result_queue.put("Start!")
-        with progressbar.ProgressBar(max_value=self.loop_len, widgets=widgets) as bar:
+        with progressbar.ProgressBar(maxval=self.loop_len, widgets=widgets) as bar:
+        # with progressbar.ProgressBar(max_value=self.loop_len, widgets=widgets) as bar:
             for i in range(self.loop_len):
                 data = np.asarray([[self.eval_data[x].h, self.eval_data[x].r, self.eval_data[x].t]
                                    for x in range(size_per_batch * i, size_per_batch * (i + 1))])
