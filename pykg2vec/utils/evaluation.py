@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 import timeit
 from multiprocessing import Process, Queue
-import progressbar
+import progressbar2
 
 from pykg2vec.core.KGMeta import EvaluationMeta
 
