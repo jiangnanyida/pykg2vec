@@ -1,1 +1,1 @@
-/inf_2674    /attributed_to   /vul_1988
+/inf_2674	/attributed_to	/vul_198n

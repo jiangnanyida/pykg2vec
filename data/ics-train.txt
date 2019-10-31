@@ -1,1 +1,1 @@
-/vul_0   /has_name    /input/handling
+/inf_2674	/attributed_to	/vul_198n
