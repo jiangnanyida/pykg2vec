@@ -30957,4 +30957,3 @@ inf_2258	infects_device	smiths medical cadd-solis medication safety software
 smiths medical cadd-solis medication safety software	infected_by	inf_2258
 inf_2258	has_infected_version	version 1.0;
 vul_1735	has_infection	inf_2258
-
