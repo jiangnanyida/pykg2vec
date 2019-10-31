@@ -1,1 +1,1 @@
-/vul_0   /has_name    /input handling
+/vul_0   /has_name    /input/handling
