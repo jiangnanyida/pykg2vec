@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 vul_0	has_name	input handling
 vul_0	intruded_by	successful exploitation of this vulnerability results in a crash and could result in the execution of arbitrary code.
 input handling	intruded_by	successful exploitation of this vulnerability results in a crash and could result in the execution of arbitrary code.
@@ -12013,6 +12014,8 @@ vul_2030	intruded_by	a format string vulnerability in the lldp subsystem of cisc
 use of externally-controlled format string 	intruded_by	a format string vulnerability in the lldp subsystem of cisco ios software and cisco ios xe software could allow an adjacent, unauthenticated attacker to cause a dos condition or execute arbitrary code with elevated privileges.
 vul_2030	reported_by	rockwell automation 
 use of externally-controlled format string 	reported_by	rockwell automation 
+=======
+>>>>>>> b7c89c596f36e6013ce2a73fdff88f90439529d8
 unitronics uniopc	provided_by	unitronics
 vul_0	has_infection	inf_0
 inf_0	attributed_to	vul_0
@@ -44694,4 +44697,8 @@ inf_2718	infects_device	allen-bradley stratix 5410 industrial distribution switc
 allen-bradley stratix 5410 industrial distribution switches	infected_by	inf_2718
 use of externally-controlled format string 	infects_device	allen-bradley stratix 5410 industrial distribution switches
 allen-bradley stratix 5410 industrial distribution switches	has_infected_version	versions 15.2(6)e0a and earlier;
+<<<<<<< HEAD
 inf_2718	has_infected_version	versions 15.2(6)e0a and earlier;
+=======
+inf_2718	has_infected_version	versions 15.2(6)e0a and earlier;
+>>>>>>> b7c89c596f36e6013ce2a73fdff88f90439529d8
