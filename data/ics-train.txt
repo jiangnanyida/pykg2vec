@@ -44697,3 +44697,8 @@ inf_2718	infects_device	allen-bradley stratix 5410 industrial distribution switc
 allen-bradley stratix 5410 industrial distribution switches	infected_by	inf_2718
 use of externally-controlled format string 	infects_device	allen-bradley stratix 5410 industrial distribution switches
 allen-bradley stratix 5410 industrial distribution switches	has_infected_version	versions 15.2(6)e0a and earlier;
+<<<<<<< HEAD
+inf_2718	has_infected_version	versions 15.2(6)e0a and earlier;
+=======
+inf_2718	has_infected_version	versions 15.2(6)e0a and earlier;
+>>>>>>> b7c89c596f36e6013ce2a73fdff88f90439529d8
