@@ -166,11 +166,11 @@ class KGEArgParser:
         self.general_hyper_group.add_argument('-ts', dest='test_step', default=10, type=int, help='Test every _ epochs')
         self.general_hyper_group.add_argument('-lr', dest='learning_rate', default=0.01, type=float,
                                               help='learning rate')
-        self.general_hyper_group.add_argument('-k', dest='hidden_size', default=50, type=int,
+        self.general_hyper_group.add_argument('-k', dest='hidden_size', default=256, type=int,
                                               help='Hidden embedding size.')
-        self.general_hyper_group.add_argument('-km', dest='ent_hidden_size', default=50, type=int,
+        self.general_hyper_group.add_argument('-km', dest='ent_hidden_size', default=256, type=int,
                                               help="Hidden embedding size for entities.")
-        self.general_hyper_group.add_argument('-kr', dest='rel_hidden_size', default=50, type=int,
+        self.general_hyper_group.add_argument('-kr', dest='rel_hidden_size', default=256, type=int,
                                               help="Hidden embedding size for relations.")
         self.general_hyper_group.add_argument('-l1', dest='l1_flag', default=True,
                                               type=lambda x: (str(x).lower() == 'true'),
